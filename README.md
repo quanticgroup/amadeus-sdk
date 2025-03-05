@@ -20,7 +20,7 @@ Inspired by the simple API wrapper provided by dahabtours GmbH
 2. **Install the SDK** – Using [Composer] is the recommended way to install the
    Amadeus SDK for PHP.  in the base directory of your project to add the SDK as a dependency:
    ```
-   composer require raaquino/amadeus-sdk-php:dev-master
+   composer require quanticgroup/amadeus-sdk:main
    ```
    Please see the
    [Installation section of the User Guide][docs-installation] for more
