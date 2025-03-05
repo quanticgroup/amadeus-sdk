@@ -1,0 +1,26 @@
+{  
+	"name": "quanticgroup/amadeus-sdk",  
+	"description": "Amadeus SDK for PHP - Use Amadeus Web Services in your PHP project",  
+	"license": "MIT",  
+	"keywords": ["amadeus","php","sdk"],  
+	"type" : "library",
+	"authors": [  
+		{  
+		"name": "Quantic Group",  
+		"email": "mandania.quantic@gmail.com"  
+		}  
+	],  
+	"require": {
+		"php": ">=8.0",
+		"guzzlehttp/guzzle": "^7.0",
+        	"guzzlehttp/psr7": "^2.7.0"
+	},  
+	"require-dev": {  
+		"phpunit/phpunit": "^8.5.39 || ^9.6.20" 
+	},  
+	"autoload": {  
+		"psr-4": {  
+			"Amadeus\\": "src/" 
+		}  
+	}  
+}  
